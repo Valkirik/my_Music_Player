@@ -173,7 +173,7 @@ class Player(tk.Frame): #закидываем root в наш класс
         mixer.music.set_volume(self.v / 10)
 
 
-
+#распаковка изображений
 image_1 = Image.open('/Users/igorbogdanov/Desktop/Pictures/1663595084_1-top-fon-com-p-serii-depressivnii-fon-foto-1.png')
 image_1 = image_1.resize((200, 200))
 image_1 = ImageTk.PhotoImage(image_1)
